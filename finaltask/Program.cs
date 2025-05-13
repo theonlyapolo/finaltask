@@ -24,11 +24,11 @@ class Program
             {
                 Console.WriteLine("\r\nProcesso de adicionar ativado...");
                 // pega as informações e joga nas variaveis
-                Console.Write("Digite o nome: ");
+                Console.WriteLine("Digite o nome: ");
                 string nome = Console.ReadLine();
-                Console.Write("Digite a idade: ");
+                Console.WriteLine("Digite a idade: ");
                 int idade = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Digite a cidade: ");
+                Console.WriteLine("Digite a cidade: ");
                 string cidade = Console.ReadLine();
 
                 // adiciona as variaveis na classe Pessoa que tem uma lista pessoa
