@@ -17,7 +17,7 @@ class Program
         {
             Console.WriteLine("O que deseja fazer?");
             Console.WriteLine("1 – Adicionar pessoa\n2 – Listar pessoas\n3 – Buscar pessoa\n4 – Sair");
-            Console.Write("Digite aqui: ");
+            Console.WriteLine("Digite aqui: ");
             int opcao = Convert.ToInt32(Console.ReadLine()); // o número q ela escolher se torna inteiro
 
             if (opcao == 1) // adicionar
